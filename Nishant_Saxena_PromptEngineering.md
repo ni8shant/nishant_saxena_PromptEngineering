@@ -309,8 +309,7 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
 
 
 | Version | Prompt | What Changed | Why This Improved the Output |
----------------------------------------------------------
-
+| --- | --- | --- | --- |--- |
 | V1 | Explain a complex technical concept "neural networks" to a 10-year-old. | N/A | N/A |
 | v2 | Added role assignment ("AI and ML teacher in primary school"), requested simple language, everyday examples, and avoidance of technical terms. | Added role, audience focus, and simplification requirements. | The explanation became easier for a child to understand and used relatable examples. |
 | V3 | Added a specific audience ("curious 10-year-old"), animal-recognition analogy, word limit, and fun ending. | Added analogy, output constraints, and engagement requirements. | The response became more concise, focused, engaging, and age-appropriate. |
@@ -319,8 +318,7 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
 
 
 | Version | Prompt | What Changed | Why This Improved the Output |
----------------------------------------------------------
-
+| --- | --- | --- | --- |--- |
 | V1 |  | N/A | N/A |
 | v2 |  |  |  |
 | V3 |  |  |  |
@@ -329,8 +327,7 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
 **Scenario C: Creative Content**
 
 | Version | Prompt | What Changed | Why This Improved the Output |
----------------------------------------------------------
-
+| --- | --- | --- | --- |--- |
 | V1 |  | N/A | N/A |
 | v2 |  |  |  |
 | V3 |  |  |  |
