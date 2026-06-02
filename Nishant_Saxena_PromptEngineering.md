@@ -319,18 +319,18 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
 
 | Version | Prompt | What Changed | Why This Improved the Output |
 | --- | --- | --- | --- |
-| V1 |  | N/A | N/A |
-| v2 |  |  |  |
-| V3 |  |  |  |
+| V1 | Write an email declining a job offer in 150 words. | N/A | N/A |
+| v2 | Added professionalism and gratitude toward the company. | Added tone and purpose requirements. | The email became more professional and polite. |
+| V3 | Added HR communication expert role, reason for declining, future interest, and positive tone requirements. | Added role assignment and detailed context. | The email became more realistic, relationship-focused, and professionally structured. |
 
 
 **Scenario C: Creative Content**
 
 | Version | Prompt | What Changed | Why This Improved the Output |
 | --- | --- | --- | --- |
-| V1 |  | N/A | N/A |
-| v2 |  |  |  |
-| V3 |  |  |  |
+| V1 | Create a creative marketing tagline for an eco-friendly water bottle. | N/A | N/A |
+| v2 | Added marketing copywriter role and requested multiple taglines. | Added professional role and quantity requirement. | Produced a wider variety of creative marketing ideas. |
+| V3 | Added award-winning copywriter role, premium brand positioning, target audience, and style requirements. | Added audience, brand identity, and creativity constraints. | The taglines became more targeted, memorable, modern, and suitable for the intended market. |
 
 ### 1.3 Role and Context Analysis
 
