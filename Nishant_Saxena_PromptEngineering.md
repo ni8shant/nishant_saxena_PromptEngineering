@@ -40,6 +40,7 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
  Adjusting the Knobs: The digital friends who guessed "monster truck" realize they made a mistake. They turn down the volume of their voices, while the friends who noticed the color yellow turn up their volume.
 
  The computer does this over and over again with millions of pictures. Eventually, all the "knobs" are tuned perfectly, and the digital brain becomes a super-smart guessing machine!
+
 --------------------------------------------------------
 
 **Version 2**
@@ -79,6 +80,7 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
  Eventually, the kids who have the best clues get super loud, and the kids who make bad guesses become totally quiet. After practicing all day and night, the stadium team becomes so smart that they can look at almost any picture and get it right on the very first try!
 
  That is a neural network: a giant team of digital helpers learning from their own oopsies until they become super smart.
+
 ---------------------------------------------------------
 
 **Version 3**
@@ -98,6 +100,7 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
  At first, this digital brain is silly and might look at a cat but guess "elephant!" But every time it makes a mistake, we tell it the right answer. The lightbulbs that guessed wrong dim down, and the ones that got it right glow brighter. After looking at thousands of animal photos, it rarely misses!
 
  So, a neural network is just a giant team of digital guessers that gets super smart by learning from its own oopsies!
+
 ---------------------------------------------------------
 
 
@@ -128,6 +131,7 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
  [Your Contact Information]
 
  [LinkedIn Profile Link]
+
 ---------------------------------------------------------
 
 **Version 2**
@@ -157,6 +161,7 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
  [Your Email Address]
 
  [Your LinkedIn Profile]
+
 ----------------------------------------------------------
 
 **Version 3**
@@ -188,6 +193,7 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
  [Your Phone Number]
 
  [Your LinkedIn Profile]
+
 ---------------------------------------------------------
 
 ### 1.1 Scenario C: Creative Content
@@ -222,6 +228,7 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
  Sip sustainably.
 
  Which angle fits your brand's personality best? If you have a specific target audience or unique material (like ocean plastic, bamboo, or stainless steel) in mind, let me know and we can narrow it down!
+
 ----------------------------------------------------------
 
 **Version 2**
@@ -258,6 +265,7 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
  Join the refill revolution.
 
  Which vibe matches your brand best? If you have a specific material you use (like ocean-bound plastic, bamboo, or insulated stainless steel) or a specific target audience, let me know and we can customize a few more!
+
 ----------------------------------------------------------
 
 **Version 3**
@@ -292,20 +300,23 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
 
  Action-Oriented
  Join the refill generation.
+
 ==========================================================
 
 ### 1.2 Iteration Documentation
 
 **Scenario A: Technical Explanation**
 
+
 | Version | Prompt | What Changed | Why This Improved the Output |
 ---------------------------------------------------------
 
-| V1 | Creative Content | N/A | N/A |
-| v2 |  |  |  |
-| V3 |  |  |  |
+| V1 | Explain a complex technical concept "neural networks" to a 10-year-old. | N/A | N/A |
+| v2 | Added role assignment ("AI and ML teacher in primary school"), requested simple language, everyday examples, and avoidance of technical terms. | Added role, audience focus, and simplification requirements. | The explanation became easier for a child to understand and used relatable examples. |
+| V3 | Added a specific audience ("curious 10-year-old"), animal-recognition analogy, word limit, and fun ending. | Added analogy, output constraints, and engagement requirements. | The response became more concise, focused, engaging, and age-appropriate. |
 
 **Scenario B: Professional Email**
+
 
 | Version | Prompt | What Changed | Why This Improved the Output |
 ---------------------------------------------------------
@@ -313,6 +324,7 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
 | V1 |  | N/A | N/A |
 | v2 |  |  |  |
 | V3 |  |  |  |
+
 
 **Scenario C: Creative Content**
 
