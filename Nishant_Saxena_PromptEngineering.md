@@ -8,9 +8,11 @@ LLM Used:  Gemini 3.5 Flash
 
 **Version 1**
 
- *Propmt* - Explain a complex technical concept "neural networks" to a 10-year-old.
+ *Propmt* - 
+ Explain a complex technical concept "neural networks" to a 10-year-old.
 
- *Output* - Imagine you want to teach your brain how to recognize a dog. You don’t have to code a bunch of rules; your eyes just look at a puppy, and your brain instantly goes, "Yep, that's a dog!" A neural network is like a pretend, digital brain that we build inside a computer to help it learn things the exact same way you do!
+ *Output* - 
+ Imagine you want to teach your brain how to recognize a dog. You don’t have to code a bunch of rules; your eyes just look at a puppy, and your brain instantly goes, "Yep, that's a dog!" A neural network is like a pretend, digital brain that we build inside a computer to help it learn things the exact same way you do!
 
  Here is how it works, broken down into three simple steps:
 
@@ -38,14 +40,17 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
  Adjusting the Knobs: The digital friends who guessed "monster truck" realize they made a mistake. They turn down the volume of their voices, while the friends who noticed the color yellow turn up their volume.
 
  The computer does this over and over again with millions of pictures. Eventually, all the "knobs" are tuned perfectly, and the digital brain becomes a super-smart guessing machine!
+--------------------------------------------------------
 
 **Version 2**
 
- *Prompt* - You are an AI and ML teacher in primary school.
+ *Prompt* - 
+ You are an AI and ML teacher in primary school.
  Explain neural networks to a 10-year-old child using simple language and everyday examples.
  Avoid technical terms.
 
- *Output* - Hey there! Welcome to AI class. Today, we are going to talk about how computers learn to think.
+ *Output* - 
+ Hey there! Welcome to AI class. Today, we are going to talk about how computers learn to think.
 
  Imagine you want to teach your pet puppy to roll over. You don't open up the puppy's head and change its brain, right? Instead, you show it a treat, you guide it to roll over, and when it does it correctly, you say, "Good boy!" and give it a snack. If it does it wrong, you don't give it a treat, and you try again.
 
@@ -74,32 +79,37 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
  Eventually, the kids who have the best clues get super loud, and the kids who make bad guesses become totally quiet. After practicing all day and night, the stadium team becomes so smart that they can look at almost any picture and get it right on the very first try!
 
  That is a neural network: a giant team of digital helpers learning from their own oopsies until they become super smart.
+---------------------------------------------------------
 
 **Version 3**
 
- *Prompt* - You are an AI and ML teacher in primary school.
+ *Prompt* - 
+ You are an AI and ML teacher in primary school.
  Explain neural networks to a curious 10 year old child.
  Use an analogy involving recognizing animals.
  Keep the explanation under 150 words.
  End with a fun summary sentence.
 
- *Output* - Hey there, future scientist! Imagine a digital brain inside a computer made of thousands of tiny, connected "lightbulbs."
+ *Output* - 
+ Hey there, future scientist! Imagine a digital brain inside a computer made of thousands of tiny, connected "lightbulbs."
 
  When we show it a picture of a dog, the first row of lightbulbs spots the fur. They pass that clue to the middle row, which notices the pointy ears and wet nose. Finally, the last row puts the clues together and shouts, "Dog!"
 
  At first, this digital brain is silly and might look at a cat but guess "elephant!" But every time it makes a mistake, we tell it the right answer. The lightbulbs that guessed wrong dim down, and the ones that got it right glow brighter. After looking at thousands of animal photos, it rarely misses!
 
  So, a neural network is just a giant team of digital guessers that gets super smart by learning from its own oopsies!
-
+---------------------------------------------------------
 
 
 ### 1.1 Scenario B: Professional Email
 
  **Version 1**
 
- *Prompt* - Write an email declining a job offer in 150 words.
+ *Prompt* - 
+ Write an email declining a job offer in 150 words.
 
- *Output* - Subject: Job Offer - [Your Name]
+ *Output* - 
+ Subject: Job Offer - [Your Name]
 
  Dear [Manager's Name],
 
@@ -118,12 +128,15 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
  [Your Contact Information]
 
  [LinkedIn Profile Link]
+---------------------------------------------------------
 
 **Version 2**
 
- *Prompt* - Write a professional email declining a job offer politely and thanking the company.
+ *Prompt* - 
+ Write a professional email declining a job offer politely and thanking the company.
 
- *Output*- Subject: Job Offer - [Your Name] - [Job Title]
+ *Output*- 
+ Subject: Job Offer - [Your Name] - [Job Title]
 
  Dear [Manager's Name or Recruiter's Name],
 
@@ -144,16 +157,19 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
  [Your Email Address]
 
  [Your LinkedIn Profile]
+----------------------------------------------------------
 
 **Version 3**
 
- *Prompt* - You are an HR communication expert.
+ *Prompt* - 
+ You are an HR communication expert.
  Write a professional email declining a job offer because I accepted another opportunity.
  Thank the company for their time.
  Express interest in future opportunities.
  Maintain a respectful and positive tone. 
 
- *Output* - Subject: Job Offer - [Your Name] - [Job Title]
+ *Output* - 
+ Subject: Job Offer - [Your Name] - [Job Title]
 
  Dear [Manager's Name or Recruiter's Name],
 
@@ -172,14 +188,17 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
  [Your Phone Number]
 
  [Your LinkedIn Profile]
+---------------------------------------------------------
 
 ### 1.1 Scenario C: Creative Content
 
 **Version 1**
 
- *Prompt* - Create a creative marketing tagline for an eco-friendly water bottle.
+ *Prompt* - 
+ Create a creative marketing tagline for an eco-friendly water bottle.
 
- *Output* - Here are a few creative marketing tagline options for an eco-friendly water bottle, broken down by the "vibe" you want your brand to have:
+ *Output* - 
+ Here are a few creative marketing tagline options for an eco-friendly water bottle, broken down by the "vibe" you want your brand to have:
 
  Clever & Punchy
  Pure water. Zero waste. No compromises.
@@ -203,13 +222,16 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
  Sip sustainably.
 
  Which angle fits your brand's personality best? If you have a specific target audience or unique material (like ocean plastic, bamboo, or stainless steel) in mind, let me know and we can narrow it down!
+----------------------------------------------------------
 
 **Version 2**
 
- *Prompt* - You are a marketing copywriter.
+ *Prompt* - 
+ You are a marketing copywriter.
  Create 10  creative marketing taglines for an  eco-friendly reusable water bottle brand.
 
- *Output* - Here are 10 creative marketing taglines for your eco-friendly reusable water bottle brand, organized by the brand personality they fit best:
+ *Output* - 
+ Here are 10 creative marketing taglines for your eco-friendly reusable water bottle brand, organized by the brand personality they fit best:
 
  Bold & Impactful
  Ditch the plastic. Drink the drastic change.
@@ -236,15 +258,18 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
  Join the refill revolution.
 
  Which vibe matches your brand best? If you have a specific material you use (like ocean-bound plastic, bamboo, or insulated stainless steel) or a specific target audience, let me know and we can customize a few more!
+----------------------------------------------------------
 
 **Version 3**
 
- *Prompt* - You are an award-winning marketing copywriter.
+ *Prompt* - 
+ You are an award-winning marketing copywriter.
  Create 10 creative marketing short and memorable taglines for a premium eco-friendly reusable water bottle brand.
  Target audience: environmentally conscious young adults.
  The taglines should be modern, catchy, and inspiring.
 
- *Output* - Bold & Trendy
+ *Output* - 
+ Bold & Trendy
  Zero waste. Maximum vibe.
 
  Slay the plastic. Save the planet.
@@ -267,7 +292,7 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
 
  Action-Oriented
  Join the refill generation.
-
+==========================================================
 
 ### 1.2 Iteration Documentation
 
@@ -276,25 +301,25 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
 | Version | Prompt | What Changed | Why This Improved the Output |
 ---------------------------------------------------------
 
-| V1 |  |  |  |
+| V1 | Creative Content | N/A | N/A |
 | v2 |  |  |  |
 | V3 |  |  |  |
 
-**Scenario b: Professional Email**
+**Scenario B: Professional Email**
 
 | Version | Prompt | What Changed | Why This Improved the Output |
 ---------------------------------------------------------
 
-| V1 |  |  |  |
+| V1 |  | N/A | N/A |
 | v2 |  |  |  |
 | V3 |  |  |  |
 
-**Scenario B: Creative Content**
+**Scenario C: Creative Content**
 
 | Version | Prompt | What Changed | Why This Improved the Output |
 ---------------------------------------------------------
 
-| V1 |  |  |  |
+| V1 |  | N/A | N/A |
 | v2 |  |  |  |
 | V3 |  |  |  |
 
