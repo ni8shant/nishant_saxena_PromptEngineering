@@ -6,7 +6,7 @@ LLM Used:  Gemini 3.5 Flash
 ## Part 1: Prompt Design & Iteration
 ### 1.1 Scenario A: Technical Explanation
 
-**Version 1**
+* **Version 1**
 
  *Propmt* -
  Explain a complex technical concept "neural networks" to a 10-year-old.
@@ -20,7 +20,7 @@ LLM Used:  Gemini 3.5 Flash
  Inside your real brain, you have billions of tiny cells called neurons. In a computer's neural network, we create digital versions of these. Think of them as a massive team of friends playing a guessing game.
 
  2. The Team Layers
-These digital friends sit in three main groups, or "layers," to get the job done:
+ These digital friends sit in three main groups, or "layers," to get the job done:
 
  The Input Layer (The Eyes): This is where the computer takes in information. If you show the computer a picture of a cat, this layer breaks the picture down into tiny pieces (like colors and lines) and passes them to the next group.
 
@@ -29,7 +29,7 @@ These digital friends sit in three main groups, or "layers," to get the job done
  The Output Layer (The Final Answer): The last group gathers all the hints and shouts out the final guess: "It's a cat!"
 
  3. How it Learns (The "Oops" Factor)
-When a neural network is brand new, it is actually pretty terrible at guessing. If you show it a picture of a banana, it might guess it’s a monster truck!
+ When a neural network is brand new, it is actually pretty terrible at guessing. If you show it a picture of a banana, it might guess it’s a monster truck!
 
  But here is how it gets smart:
 
@@ -43,7 +43,7 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
 
 --------------------------------------------------------
 
-**Version 2**
+* **Version 2**
 
  *Prompt* -
  You are an AI and ML teacher in primary school.
@@ -83,7 +83,7 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
 
 ---------------------------------------------------------
 
-**Version 3**
+* **Version 3**
 
  *Prompt* -
  You are an AI and ML teacher in primary school.
@@ -106,7 +106,7 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
 
 ### 1.1 Scenario B: Professional Email
 
- **Version 1**
+* **Version 1**
 
  *Prompt* -
  Write an email declining a job offer in 150 words.
@@ -134,7 +134,7 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
 
 ---------------------------------------------------------
 
-**Version 2**
+* **Version 2**
 
  *Prompt* -
  Write a professional email declining a job offer politely and thanking the company.
@@ -164,7 +164,7 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
 
 ----------------------------------------------------------
 
-**Version 3**
+* **Version 3**
 
  *Prompt* -
  You are an HR communication expert.
@@ -198,7 +198,7 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
 
 ### 1.1 Scenario C: Creative Content
 
-**Version 1**
+* **Version 1**
 
  *Prompt* -
  Create a creative marketing tagline for an eco-friendly water bottle.
@@ -231,7 +231,7 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
 
 ----------------------------------------------------------
 
-**Version 2**
+* **Version 2**
 
  *Prompt* -
  You are a marketing copywriter.
@@ -268,7 +268,7 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
 
 ----------------------------------------------------------
 
-**Version 3**
+* **Version 3**
 
  *Prompt* -
  You are an award-winning marketing copywriter.
@@ -333,6 +333,25 @@ When a neural network is brand new, it is actually pretty terrible at guessing. 
 | V3 | Added award-winning copywriter role, premium brand positioning, target audience, and style requirements. | Added audience, brand identity, and creativity constraints. | The taglines became more targeted, memorable, modern, and suitable for the intended market. |
 
 ### 1.3 Role and Context Analysis
+
+### 1.3 Role and Context Usage
+
+**Role Assignment Used:**
+
+* **Scenario A:** "You are an AI and ML teacher in primary school."
+* **Scenario B:** "You are an HR communication expert."
+
+
+**Context Setting Used:**
+
+* **Scenario A:** Explain neural networks to a curious 10-year-old child using an animal-recognition analogy.
+* **Scenario B:** Decline a job offer because another opportunity was accepted while maintaining a positive relationship with the company.
+
+
+**Analysis:**
+
+Adding role assignment helped the LLM adopt the expertise and communication style appropriate for each task. Providing context gave the model a clear understanding of the target audience, purpose, and desired tone. As more role and contextual information was added, the responses became more relevant, focused, and tailored to the specific requirements. This resulted in higher-quality outputs that required fewer revisions and better achieved the intended goals.
+
 
 ## Part 2: Temperature & Parameter Control
 ### 2.1 Temperature Experimentation
