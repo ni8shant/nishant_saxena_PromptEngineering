@@ -334,8 +334,6 @@ LLM Used:  Gemini 3.5 Flash
 
 ### 1.3 Role and Context Analysis
 
-### 1.3 Role and Context Usage
-
 **Role Assignment Used:**
 
 * **Scenario A:** "You are an AI and ML teacher in primary school."
@@ -352,10 +350,57 @@ LLM Used:  Gemini 3.5 Flash
 
 Adding role assignment helped the LLM adopt the expertise and communication style appropriate for each task. Providing context gave the model a clear understanding of the target audience, purpose, and desired tone. As more role and contextual information was added, the responses became more relevant, focused, and tailored to the specific requirements. This resulted in higher-quality outputs that required fewer revisions and better achieved the intended goals.
 
+----------------------------------------------------------
 
 ## Part 2: Temperature & Parameter Control
+
 ### 2.1 Temperature Experimentation
+
+**Base Prompt -**\
+ Write a 2-3 sentence opening for a story about a mysterious door discovered in an old library. 
+
+ **Output -**\
+ Hidden behind a rotting tapestry in the forgotten depths of the archives, the heavy oak door bore no keyhole, only a brass handle that pulsed with a faint, warm heartbeat. For over a century, librarians had walked past it, blind to its existence until a sudden, low hum rattled the dust from the topmost shelves. It shouldn't have been there—the blueprints of the building insisted that behind this very wall lay nothing but solid brick and thirty feet of earth. 
+
+
+**Prompt (Low Temperature (0.2)) -**\
+ Write a 2-3 sentence opening for a story about a mysterious door discovered in an old library. Be precise and consistent. 
+
+ **Output -**\
+ Tucked behind a decaying tapestry in the library’s forgotten sub-basement, the heavy oak door bore no keyhole, only a brass handle that pulsed with a faint, rhythmic heat. For a century, the building’s blueprints had insisted that nothing lay behind this specific wall but thirty feet of solid, structural brick. Yet, as the dust cleared from its frame, a low, mechanical hum vibrated through the floorboards, proving that something hidden was finally waking up. 
+
+
+**Prompt (Medium Temperature (0.7)) -**\
+ Write a 2-3 sentence opening for a story about a mysterious door discovered in an old library. 
+
+ **Output -**\
+  Tucked behind a decaying tapestry in the library’s forgotten sub-basement, the heavy oak door bore no keyhole, only a brass handle that pulsed with a faint, rhythmic heat. For a century, the building’s blueprints had insisted that nothing lay behind this specific wall but thirty feet of solid, structural brick. Yet, as the dust cleared from its frame, a low, mechanical hum vibrated through the floorboards, proving that something hidden was finally waking up.
+
+
+**Prompt (High Temperature (1.2)) -**\
+ Write a 2-3 sentence opening for a story about a mysterious door discovered in an old library. Be creative and explore diverse ideas. 
+
+ **Output -**\
+  Deep within the library’s forgotten wing, tucked away where the scent of vanilla and decay hung heaviest, the door was not made of wood or iron, but entirely of tightly bound, ancient manuscripts whose ink bled into the wall like moss. When Leo brushed his fingers against the spine of the frame, the centuries-old text began to rearrange itself, whispering secrets in a language that had been dead for a millennia. The architecture blueprints insisted the space behind it was solid stone, yet from the other side came the unmistakable, rhythmic crashing of ocean waves.
+
+
+| Temperature | Characteristics of Output | Creativity Level | Predictability |
+|-|-|-|-|
+| Low (0.2) | Focused on clear details such as the location of the door, the building blueprints, and the mysterious hum. The writing remained logical and consistent. | Low | High |
+| Medium (0.7) | Similar to the low-temperature output but slightly more descriptive. It balanced mystery with coherence and maintained a structured narrative. | Medium | Medium |
+| High (1.2) | Introduced highly imaginative elements such as a door made of ancient manuscripts, self-rearranging text, and ocean waves behind a stone wall. The story became more unique and unpredictable. | High | Low |
+
 ### 2.2 Analysis & Recommendations
+
+ - Low temperature is most useful when accuracy, consistency, and reliability are important. 
+  Two examples are writing technical documentation and generating professional business emails, where factual and predictable responses are required. 
+
+ - High temperature is most useful for creative tasks such as story writing and marketing slogan generation because it encourages diverse and imaginative ideas. 
+  For this experiment, the high temperature setting worked best because the task involved creative storytelling, and the output was more engaging, original, and interesting.
+ 
+ However, the medium temperature also produced a good balance between creativity and coherence.
+
+----------------------------------------------------------
 
 ## Part 3: Strategic Prompting Techniques
 ### 3.1 Chain-of-Thought Prompting
