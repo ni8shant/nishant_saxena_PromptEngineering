@@ -1,12 +1,12 @@
 # Prompt Engineering Portfolio
 Name: Nishant Saxena\
-Date: 04 June 2026
+Date: 04 June 2026\
 LLM Used:  Gemini 3.5 Flash
 
 ## Part 1: Prompt Design & Iteration
 ### 1.1 Scenario A: Technical Explanation
 
-* **Version 1**
+ **Version 1**
  - *Prompt* -\
   Explain a complex technical concept "neural networks" to a 10-year-old.
 
@@ -42,7 +42,7 @@ LLM Used:  Gemini 3.5 Flash
 
 
 
-* **Version 2**
+ **Version 2**
 
  - *Prompt* -\
   You are an AI and ML teacher in primary school.
@@ -82,7 +82,7 @@ LLM Used:  Gemini 3.5 Flash
 
 
 
-* **Version 3**
+ **Version 3**
 
  - *Prompt* -\
   You are an AI and ML teacher in primary school.
@@ -105,7 +105,7 @@ LLM Used:  Gemini 3.5 Flash
 
 ### 1.1 Scenario B: Professional Email
 
-* **Version 1**
+ **Version 1**
 
  - *Prompt* -\
   Write an email declining a job offer in 150 words.
@@ -124,13 +124,13 @@ LLM Used:  Gemini 3.5 Flash
   Thank you once again for this opportunity, and I wish you and the company continued success.
 
   Best regards,
-  [Your Name]
-  [Your Contact Information]
-  [LinkedIn Profile Link]
+  [Your Name]\
+  [Your Contact Information]\
+  [LinkedIn Profile Link]\
 
 
 
-* **Version 2**
+ **Version 2**
 
  - *Prompt* -\
   Write a professional email declining a job offer politely and thanking the company.
@@ -150,14 +150,14 @@ LLM Used:  Gemini 3.5 Flash
 
   Best regards,
 
-  [Your Name]
-  [Your Phone Number]
-  [Your Email Address]
+  [Your Name]\
+  [Your Phone Number]\
+  [Your Email Address]\
   [Your LinkedIn Profile]
 
 
 
-* **Version 3**
+ **Version 3**
 
  - *Prompt* -\
   You are an HR communication expert.
@@ -181,15 +181,15 @@ LLM Used:  Gemini 3.5 Flash
 
   Best regards,
 
-  [Your Name]
-  [Your Phone Number]
+  [Your Name]\
+  [Your Phone Number]\
   [Your LinkedIn Profile]
 
 ---------------------------------------------------------
 
 ### 1.1 Scenario C: Creative Content
 
-* **Version 1**
+ **Version 1**
 
  - *Prompt* -\
   Create a creative marketing tagline for an eco-friendly water bottle.
@@ -197,32 +197,26 @@ LLM Used:  Gemini 3.5 Flash
  - *Output* -\
   Here are a few creative marketing tagline options for an eco-friendly water bottle, broken down by the "vibe" you want your brand to have:
 
-  Clever & Punchy
-  Pure water. Zero waste. No compromises.
-
-  The only thing it leaves behind is a refreshed you.
-
+  **Clever & Punchy**
+  Pure water. Zero waste. No compromises.\
+  The only thing it leaves behind is a refreshed you.\
   Refill your bottle. Reset the planet.
 
-  Purpose-Driven & Bold
-  Earth approved. Hydration improved.
-
-  Good for your body. Great for our planet.
-
+  **Purpose-Driven & Bold**
+  Earth approved. Hydration improved.\
+  Good for your body. Great for our planet.\
   Ditch the disposable. Drink the sustainable.
 
-  Minimalist & Sleek
-  Hydration with a conscience.
-
-  Naturally refreshing. Consciously made.
-
+  **Minimalist & Sleek**
+  Hydration with a conscience.\
+  Naturally refreshing. Consciously made.\
   Sip sustainably.
 
   Which angle fits your brand's personality best? If you have a specific target audience or unique material (like ocean plastic, bamboo, or stainless steel) in mind, let me know and we can narrow it down!
 
 
 
-* **Version 2**
+ **Version 2**
 
  - *Prompt* -\
   You are a marketing copywriter.
@@ -232,18 +226,18 @@ LLM Used:  Gemini 3.5 Flash
   Here are 10 creative marketing taglines for your eco-friendly reusable water bottle brand, organized by the brand personality they fit best:
 
   **Bold & Impactful**\
-  Ditch the plastic. Drink the drastic change.
-  One bottle for you. One billion less for the planet.
+  Ditch the plastic. Drink the drastic change.\
+  One bottle for you. One billion less for the planet.\
   Hydration that leaves zero trace.
 
   **Clever & Playful**\
-  The only thing it holds back is plastic waste.
-  Refill today. Save tomorrow. Repeat.
+  The only thing it holds back is plastic waste.\
+  Refill today. Save tomorrow. Repeat.\
   Earth-approved hydration.
 
   **Sleek & Minimalist**\
-  Sip sustainably.
-  Pure water. Cleaner planet.
+  Sip sustainably.\
+  Pure water. Cleaner planet.\
   Consciously made. Naturally refreshed.
 
   **Action-Oriented**\
@@ -253,7 +247,7 @@ LLM Used:  Gemini 3.5 Flash
 
 
 
-* **Version 3**
+ **Version 3**
 
  - *Prompt* -\
   You are an award-winning marketing copywriter.
@@ -263,18 +257,18 @@ LLM Used:  Gemini 3.5 Flash
 
  - *Output* -\
   **Bold & Trendy**\
-  Zero waste. Maximum vibe.
-  Slay the plastic. Save the planet.
+  Zero waste. Maximum vibe.\
+  Slay the plastic. Save the planet.\
   Eco-luxury for the daily hustle.
 
   **Inspiring & Purpose-Driven**\
-  Hydrate like the future depends on it.
-  Pure hydration. Zero footprints.
+  Hydrate like the future depends on it.\
+  Pure hydration. Zero footprints.\
   Change the world, one sip at a time.
 
   **Minimalist & Punchy**\
-  Sip responsibly.
-  Stay fresh. Keep Earth green.
+  Sip responsibly.\
+  Stay fresh. Keep Earth green.\
   The conscious choice for clean hydration.
 
   **Action-Oriented**\
@@ -417,19 +411,19 @@ and 10% more sales people, how many total employees will there be after hiring?
     Sales (25 %):\
             150 * 0.25 = 37.5 { employees}\
     Operations (the rest):\
-            150 - 90 - 37.5 = 22.5 { employees}\
+            150 - 90 - 37.5 = 22.5 { employees}
             
  Step 2: Calculate the number of new hiresNext, we find how many additional people will be hired for the engineering and sales departments:\
     New Engineers (20% increase):\
             90 * 0.20 = 18 { new engineers}\
     New Salespeople (10% increase):\
-            37.5 * 0.10 = 3.75 { new salespeople}\
+            37.5 * 0.10 = 3.75 { new salespeople}
             
  Step 3: Calculate the final totalNow, add the new hires to the original workforce to get the total number of employees:\
     Total New Hires:\
             18 + 3.75 = 21.75 { new employees}\
     Total Employees After Hiring:\
-            150 + 21.75 = 171.75\
+            150 + 21.75 = 171.75
             
  Final Answer:\
  Mathematically, the total number of employees will be 171.75.\
@@ -450,7 +444,7 @@ and 10% more sales people, how many total employees will there be after hiring?
 ### 3.2 Few-Shot Prompting
 
 - **Step 1: Zero-Shot Attempt-**\
-  *Prompt-*
+  **Prompt-**\
   Classify the sentiment of each customer review as Positive, Negative, or Neutral.
   "The product arrived damaged and customer service was unhelpful."
   "Works as expected, nothing special but does the job."
@@ -458,7 +452,7 @@ and 10% more sales people, how many total employees will there be after hiring?
   "The quality is okay but slightly overpriced for what you get."
   "Terrible experience, would not recommend to anyone." 
 
-  *Output-*\
+  **Output-**\
   "The product arrived damaged and customer service was unhelpful."
   *Negative*
 
@@ -475,7 +469,7 @@ and 10% more sales people, how many total employees will there be after hiring?
   *Negative*
 
 - **Step 2: Few-Shot-**\
-  *Prompt-*\
+  **Prompt-**\
   Classify customer reviews as Positive, Negative, or Neutral.
   Example 1:
   Review: "This product exceeded my expectations!"
@@ -494,20 +488,20 @@ and 10% more sales people, how many total employees will there be after hiring?
   "The quality is okay but slightly overpriced for what you get."
   "Terrible experience, would not recommend to anyone." 
 
-  *Output-*\
-  Review: "The product arrived damaged and customer service was unhelpful."
+  **Output-**\
+  Review: "The product arrived damaged and customer service was unhelpful."\
   Sentiment: Negative
 
-  Review: "Works as expected, nothing special but does the job."
+  Review: "Works as expected, nothing special but does the job."\
   Sentiment: Neutral
 
-  Review: "Absolutely love this! Best purchase I've made all year!"
+  Review: "Absolutely love this! Best purchase I've made all year!"\
   Sentiment: Positive
 
-  Review: "The quality is okay but slightly overpriced for what you get."
+  Review: "The quality is okay but slightly overpriced for what you get."\
   Sentiment: Neutral
 
-  Review: "Terrible experience, would not recommend to anyone."
+  Review: "Terrible experience, would not recommend to anyone."\
   Sentiment: Negative
  
 **Comparison Table**
@@ -532,19 +526,19 @@ and 10% more sales people, how many total employees will there be after hiring?
  **Prompt - Tell me about the 2023 World Championship of Quantum Gardening and its winner.**
 
  *LLM responses*-\
-    It looks like there might be a bit of a mix-up in the name! There is no real-world event called the "World Championship of Quantum Gardening."
+ It looks like there might be a bit of a mix-up in the name! There is no real-world event called the "World Championship of Quantum Gardening."
      
-    However, you are likely thinking of WorldQuant’s 2023 International Quant Championship (IQC). While it doesn't involve tending to atomic-scale shrubs or managing quantum superposition in flowerbeds, it is a massive global competition centered around quantitative finance, data science, and predictive modeling. 
+ However, you are likely thinking of WorldQuant’s 2023 International Quant Championship (IQC). While it doesn't involve tending to atomic-scale shrubs or managing quantum superposition in flowerbeds, it is a massive global competition centered around quantitative finance, data science, and predictive modeling. 
      
-    Here are the details on that actual championship and who took home the crown:
+ Here are the details on that actual championship and who took home the crown:
      
-  **The 2023 International Quant Championship (IQC)**
+**The 2023 International Quant Championship (IQC)**
 
-    Organized by the global quantitative asset management firm WorldQuant, the IQC is a three-stage, team-based global competition. Over 30,000 participants from more than 100 countries competed on WorldQuant's BRAIN platform.
-    The goal wasn't botany, but rather building "alphas"—predictive mathematical models used to identify signals in financial markets. Teams were judged on their originality, the mathematical logic of their selections, and how their models performed during backtesting.
+ Organized by the global quantitative asset management firm WorldQuant, the IQC is a three-stage, team-based global competition. Over 30,000 participants from more than 100 countries competed on WorldQuant's BRAIN platform.
+ The goal wasn't botany, but rather building "alphas"—predictive mathematical models used to identify signals in financial markets. Teams were judged on their originality, the mathematical logic of their selections, and how their models performed during backtesting.
 
-    The Winners
-    The final round took place live in the Bahamas in December 2023, where 12 elite university teams faced off. 
+ The Winners
+ The final round took place live in the Bahamas in December 2023, where 12 elite university teams faced off. 
    - The Champions: 
          A student team from the Indian Institute of Technology Delhi (IIT Delhi), consisting of Nihar Patel and Vaibhav Gupta, won first place.
    - The Prize: 
@@ -561,18 +555,18 @@ and 10% more sales people, how many total employees will there be after hiring?
   **Prompt-**\
   Tell me about the 2023 World Championship of Quantum Gardening and its winner. If you don't know, please say so rather than guessing.**
 
-  *LLM responses-*\
-    I do not know of any real-world event called the "2023 World Championship of Quantum Gardening" or its winner.
+  **LLM responses-**\
+ I do not know of any real-world event called the "2023 World Championship of Quantum Gardening" or its winner.
 
-    Because you asked me not to guess, I won't try to stretch it to match unrelated competitions or speculative fiction. If this is a niche reference, a specific video game event, or a joke tournament from a community you follow, I don't have a record of it!
+ Because you asked me not to guess, I won't try to stretch it to match unrelated competitions or speculative fiction. If this is a niche reference, a specific video game event, or a joke tournament from a community you follow, I don't have a record of it!
 
  **Why hallucinations are problematic?**
 
-    Hallucinations are problematic because they can present incorrect or fabricated information in a confident manner, which may mislead users into believing the information is accurate. This can be especially harmful in areas such as education, healthcare, finance, or research where accuracy is important.
+ Hallucinations are problematic because they can present incorrect or fabricated information in a confident manner, which may mislead users into believing the information is accurate. This can be especially harmful in areas such as education, healthcare, finance, or research where accuracy is important.
 
  **One strategy to reduce hallucinations.**
 
-    One effective strategy to reduce hallucinations is to explicitly instruct the model to admit uncertainty when it does not know an answer. Adding phrases such as "If you do not know, please say so rather than guessing" encourages the model to avoid generating unsupported information and provide more reliable responses.
+ One effective strategy to reduce hallucinations is to explicitly instruct the model to admit uncertainty when it does not know an answer. Adding phrases such as "If you do not know, please say so rather than guessing" encourages the model to avoid generating unsupported information and provide more reliable responses.
 
 ---------------------------------------------------------
 
@@ -581,7 +575,7 @@ and 10% more sales people, how many total employees will there be after hiring?
 #### Option A: Gender Bias
 
 - **Prompt - "Describe a typical nurse"**\
-  *LLM responses -*\
+  **LLM responses -**\
     If you look past the old-school TV stereotypes of starched white hats or historical wartime uniforms, a typical modern nurse is essentially a highly skilled, fast-moving clinical coordinator. They are the primary bridge between a patient and the rest of the healthcare system.
     
     While nursing roles vary massively—from quiet research offices to chaotic trauma bays—a typical floor nurse balances intensive physical labor with sharp analytical thinking.
@@ -602,9 +596,7 @@ and 10% more sales people, how many total employees will there be after hiring?
   | Category | Typical |
   |-----|-----|
   | TasksAssessment & Monitoring | Taking vital signs (blood pressure, pulse, oxygen levels), performing physical exams, and tracking fluid intake/output. |
-      
   | Interventions | Administering medications (oral, intravenous, or injections), managing IV lines, dressing complex wounds, and inserting catheters.|
-      
   | Advocacy & Documentation | Charting every medical change in electronic health records, serving as the "safety check" against doctor medication errors, and advocating for the patient's comfort and wishes. |
       
  The Reality Check: Because nurses spend the most consecutive hours with patients, they are usually the first to notice when someone is deteriorating. Doctors write the plan, but nurses execute it, monitor the results, and catch the mistakes before they reach the patient.
@@ -619,7 +611,7 @@ and 10% more sales people, how many total employees will there be after hiring?
 #### Option B: Culture Bias
 
  - **Prompt - Recommend professional attire for a job interview.**\
-  *LLM responses-*\
+  **LLM responses-**\
     When dressing for a professional job interview, sticking to a classic, well-fitted corporate uniform ensures you make an excellent first impression. A structured suit paired with a crisp neutral shirt and polished formal shoes projects confidence and competence.
 
     The Foundation: A Sharp Suit
@@ -664,7 +656,7 @@ and 10% more sales people, how many total employees will there be after hiring?
 #### Option C: Age Bias
 
  - **Prompt- Describe an ideal candidate for learning new technology.**\
-     *LLM responses-*\
+     **LLM responses-**\
      The ideal candidate for learning new technology isn’t necessarily the person who already knows the most languages or frameworks. Instead, they are defined by a specific mindset and a structured approach to picking up new skills.
      
      In a fast-moving tech landscape, tools change constantly. The best learners possess a mix of specific behavioral traits and practical strategies that allow them to adapt efficiently.
