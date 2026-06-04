@@ -114,22 +114,22 @@ LLM Used:  Gemini 3.5 Flash
   Write an email declining a job offer in 150 words.
 
  - *Output* -\
-  Subject: Job Offer - [Your Name]
+     Subject: Job Offer - [Your Name]
 
-  Dear [Manager's Name],
+     Dear [Manager's Name],
+ 
+     Thank you so much for offering me the [Job Title] position at [Company Name]. I truly appreciate the time you and the team spent interviewing me, as well as your confidence in my abilities.
 
-  Thank you so much for offering me the [Job Title] position at [Company Name]. I truly appreciate the time you and the team spent interviewing me, as well as your confidence in my abilities.
+     After careful consideration, I have decided to accept a different role that aligns more closely with my current long-term career goals. Therefore, I must respectfully decline your offer.
 
-  After careful consideration, I have decided to accept a different role that aligns more closely with my current long-term career goals. Therefore, I must respectfully decline your offer.
+     I am incredibly impressed by [Company Name] and the fantastic culture you’ve built. I genuinely hope our paths cross again in the future.
 
-  I am incredibly impressed by [Company Name] and the fantastic culture you’ve built. I genuinely hope our paths cross again in the future.
+     Thank you once again for this opportunity, and I wish you and the company continued success.
 
-  Thank you once again for this opportunity, and I wish you and the company continued success.
-
-  Best regards,
-  [Your Name]\
-  [Your Contact Information]\
-  [LinkedIn Profile Link]
+     Best regards,
+     [Your Name]\
+     [Your Contact Information]\
+     [LinkedIn Profile Link]
 
 
 
@@ -139,24 +139,24 @@ LLM Used:  Gemini 3.5 Flash
   Write a professional email declining a job offer politely and thanking the company.
 
  - *Output*-\
-  Subject: Job Offer - [Your Name] - [Job Title]
+     Subject: Job Offer - [Your Name] - [Job Title]
 
-  Dear [Manager's Name or Recruiter's Name],
+     Dear [Manager's Name or Recruiter's Name],
 
-  Thank you so much for offering me the [Job Title] position at [Company Name]. I sincerely appreciate the time and effort you and the team invested in interviewing me, as well as the confidence you have shown in my qualifications.
+     Thank you so much for offering me the [Job Title] position at [Company Name]. I sincerely appreciate the time and effort you and the team invested in interviewing me, as well as the confidence you have shown in my qualifications.
 
-  After careful consideration, I have decided to accept another opportunity that aligns more closely with my current professional development and long-term career goals. Therefore, I must respectfully decline your offer.
+     After careful consideration, I have decided to accept another opportunity that aligns more closely with my current professional development and long-term career goals. Therefore, I must respectfully decline your offer.
 
-  I am incredibly impressed by the vision of [Company Name] and the wonderful culture you have built. It was a pleasure connecting with everyone during the interview process.
+     I am incredibly impressed by the vision of [Company Name] and the wonderful culture you have built. It was a pleasure connecting with everyone during the interview process.
 
-  Thank you once again for this opportunity and for your exceptional support throughout the process. I wish you and the company continued growth and success, and I hope our paths cross again in the future.
+     Thank you once again for this opportunity and for your exceptional support throughout the process. I wish you and the company continued growth and success, and I hope our paths cross again in the future.
 
-  Best regards,
+     Best regards,
 
-  [Your Name]\
-  [Your Phone Number]\
-  [Your Email Address]\
-  [Your LinkedIn Profile]
+     [Your Name]\
+     [Your Phone Number]\
+     [Your Email Address]\
+     [Your LinkedIn Profile]
 
 
 
@@ -170,23 +170,23 @@ LLM Used:  Gemini 3.5 Flash
   Maintain a respectful and positive tone. 
 
  - *Output* -\
-  Subject: Job Offer - [Your Name] - [Job Title]
+     Subject: Job Offer - [Your Name] - [Job Title]
 
-  Dear [Manager's Name or Recruiter's Name],
+     Dear [Manager's Name or Recruiter's Name],
 
-  Thank you so much for offering me the [Job Title] position at [Company Name]. I sincerely appreciate the time and effort you and your team invested in the interview process, as well as the confidence you have shown in my skills and experience.
+     Thank you so much for offering me the [Job Title] position at [Company Name]. I sincerely appreciate the time and effort you and your team invested in the interview process, as well as the confidence you have shown in my skills and experience.
 
-  After careful consideration, I have decided to accept another opportunity that aligns more closely with my current career goals. Therefore, I must respectfully decline your offer.
+     After careful consideration, I have decided to accept another opportunity that aligns more closely with my current career goals. Therefore, I must respectfully decline your offer.
 
-  I remain incredibly impressed by [Company Name] and the wonderful, collaborative culture you have built. It was a true pleasure meeting everyone, and I would love to stay in touch as our paths may cross again. Please keep me in mind for future opportunities down the road where my background might be a strong fit.
+     I remain incredibly impressed by [Company Name] and the wonderful, collaborative culture you have built. It was a true pleasure meeting everyone, and I would love to stay in touch as our paths may cross again. Please keep me in mind for future opportunities down the road where my background might be a strong fit.
 
-  Thank you once again for your time, consideration, and exceptional support throughout this process. I wish you and the company continued growth and success.
+     Thank you once again for your time, consideration, and exceptional support throughout this process. I wish you and the company continued growth and success.
 
-  Best regards,
+     Best regards,
 
-  [Your Name]\
-  [Your Phone Number]\
-  [Your LinkedIn Profile]
+     [Your Name]\
+     [Your Phone Number]\
+     [Your LinkedIn Profile]
 
 ---------------------------------------------------------
 
@@ -689,16 +689,16 @@ and 10% more sales people, how many total employees will there be after hiring?
   An ideal learner typically progresses through technical material using a systematic process:
   
   [Exposure to New Concept]\
-           │\
+           ││\
            ▼\
   [Deconstruction into First Principles]\
-           │\
+           ││\
            ▼\
   [Rapid Prototyping (Building Small Projects)]\
-           │\
+           ││\
            ▼\
   [Failure Analysis (Debugging & Code Review)]\
-           │\
+           ││\
            ▼\
   [Internalization & Optimization]
 
