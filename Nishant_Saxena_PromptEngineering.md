@@ -712,22 +712,38 @@ and 10% more sales people, how many total employees will there be after hiring?
  
   An ideal learner typically progresses through technical material using a systematic process:
   
-  [Exposure to New Concept] 
-           │
-           ▼
-  [Deconstruction into First Principles] 
-           │
-           ▼
-  [Rapid Prototyping (Building Small Projects)] 
-           │
-           ▼
-  [Failure Analysis (Debugging & Code Review)] 
-           │
-           ▼
-  [Internalization & Optimization]
+  [Exposure to New Concept]\
+           │\
+           ▼\
+  [Deconstruction into First Principles]\
+           │\
+           ▼\
+  [Rapid Prototyping (Building Small Projects)]\
+           │\
+           ▼\
+  [Failure Analysis (Debugging & Code Review)]\
+           │\
+           ▼\
+  [Internalization & Optimization]\
 
  The "Unlearning" Factor: One of the rarest and most valuable traits in an ideal candidate is the willingness to unlearn outdated patterns. They do not force the paradigms of an old language or framework onto a new one just because it feels comfortable.
 
 -------------------------------------------------------
 
 ### 4.3 Limitations & Responsible Use
+
+
+### 4.3 Limitations & Responsible Use
+**Three Limitations**
+
+While working with LLMs, I observed several limitations. 
+- First, the model sometimes generated inaccurate or misleading information, as seen in the hallucination test where it associated a fake event with a real competition.
+- Second, reasoning is not always reliable because different prompting strategies produced different answers for the same problem.
+- Third, LLMs may occasionally reflect cultural assumptions or stereotypes depending on how a prompt is phrased.
+
+**Three Recommendations**
+
+To use LLMs responsibly,
+- outputs should always be verified when dealing with factual, academic, medical, legal, or financial information.
+- LLMs are not suitable for making high-stakes decisions independently because they can produce incorrect or fabricated answers with confidence.
+- They should be used ethically as tools for learning, brainstorming, drafting, and productivity while ensuring proper fact-checking, critical thinking, and acknowledgment of AI assistance when required.
