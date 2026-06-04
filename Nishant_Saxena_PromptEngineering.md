@@ -15,19 +15,22 @@ LLM Used:  Gemini 3.5 Flash
 
   Here is how it works, broken down into three simple steps:
 
-  1. The Tiny Guessers (Neurons)
+  1. The Tiny Guessers (Neurons)\
   Inside your real brain, you have billions of tiny cells called neurons. In a computer's neural network, we create digital versions of these. Think of them as a massive team of friends playing a guessing game.
 
-  2. The Team Layers
+  2. The Team Layers\
   These digital friends sit in three main groups, or "layers," to get the job done:
 
-  The Input Layer (The Eyes): This is where the computer takes in information. If you show the computer a picture of a cat, this layer breaks the picture down into tiny pieces (like colors and lines) and passes them to the next group.
+  - The Input Layer (The Eyes):\
+     This is where the computer takes in information. If you show the computer a picture of a cat, this layer breaks the picture down into tiny pieces (like colors and lines) and passes them to the next group.
 
-  The Hidden Layer (The Thinkers): This is where the magic happens. This group is filled with thousands of digital friends who look at the pieces. One friend might whisper, "Hey, I see whiskers!" Another might say, "I see pointy ears!" They all pass their hints along.
+  - The Hidden Layer (The Thinkers):\
+     This is where the magic happens. This group is filled with thousands of digital friends who look at the pieces. One friend might whisper, "Hey, I see whiskers!" Another might say, "I see pointy ears!" They all pass their hints along.
 
-  The Output Layer (The Final Answer): The last group gathers all the hints and shouts out the final guess: "It's a cat!"
+  - The Output Layer (The Final Answer):\
+     The last group gathers all the hints and shouts out the final guess: "It's a cat!"
 
-   3. How it Learns (The "Oops" Factor)
+   3. How it Learns (The "Oops" Factor)\
   When a neural network is brand new, it is actually pretty terrible at guessing. If you show it a picture of a banana, it might guess it’s a monster truck!
 
   But here is how it gets smart:
@@ -126,7 +129,7 @@ LLM Used:  Gemini 3.5 Flash
   Best regards,
   [Your Name]\
   [Your Contact Information]\
-  [LinkedIn Profile Link]\
+  [LinkedIn Profile Link]
 
 
 
@@ -223,25 +226,25 @@ LLM Used:  Gemini 3.5 Flash
   Create 10  creative marketing taglines for an  eco-friendly reusable water bottle brand.
 
  - *Output* -\
-  Here are 10 creative marketing taglines for your eco-friendly reusable water bottle brand, organized by the brand personality they fit best:
+     Here are 10 creative marketing taglines for your eco-friendly reusable water bottle brand, organized by the brand personality they fit best:
 
-  **Bold & Impactful**\
-  Ditch the plastic. Drink the drastic change.\
-  One bottle for you. One billion less for the planet.\
-  Hydration that leaves zero trace.
+     **Bold & Impactful**\
+     Ditch the plastic. Drink the drastic change.\
+     One bottle for you. One billion less for the planet.\
+     Hydration that leaves zero trace.
 
-  **Clever & Playful**\
-  The only thing it holds back is plastic waste.\
-  Refill today. Save tomorrow. Repeat.\
-  Earth-approved hydration.
+     **Clever & Playful**\
+     The only thing it holds back is plastic waste.\
+     Refill today. Save tomorrow. Repeat.\
+     Earth-approved hydration.
 
-  **Sleek & Minimalist**\
-  Sip sustainably.\
-  Pure water. Cleaner planet.\
-  Consciously made. Naturally refreshed.
+     **Sleek & Minimalist**\
+     Sip sustainably.\
+     Pure water. Cleaner planet.\
+     Consciously made. Naturally refreshed.
 
-  **Action-Oriented**\
-  Join the refill revolution.
+     **Action-Oriented**\
+     Join the refill revolution.
 
   Which vibe matches your brand best? If you have a specific material you use (like ocean-bound plastic, bamboo, or insulated stainless steel) or a specific target audience, let me know and we can customize a few more!
 
@@ -256,23 +259,23 @@ LLM Used:  Gemini 3.5 Flash
   The taglines should be modern, catchy, and inspiring.
 
  - *Output* -\
-  **Bold & Trendy**\
-  Zero waste. Maximum vibe.\
-  Slay the plastic. Save the planet.\
-  Eco-luxury for the daily hustle.
+     **Bold & Trendy**\
+     Zero waste. Maximum vibe.\
+     Slay the plastic. Save the planet.\
+     Eco-luxury for the daily hustle.
 
-  **Inspiring & Purpose-Driven**\
-  Hydrate like the future depends on it.\
-  Pure hydration. Zero footprints.\
-  Change the world, one sip at a time.
+     **Inspiring & Purpose-Driven**\
+     Hydrate like the future depends on it.\
+     Pure hydration. Zero footprints.\
+     Change the world, one sip at a time.
 
-  **Minimalist & Punchy**\
-  Sip responsibly.\
-  Stay fresh. Keep Earth green.\
-  The conscious choice for clean hydration.
+     **Minimalist & Punchy**\
+     Sip responsibly.\
+     Stay fresh. Keep Earth green.\
+     The conscious choice for clean hydration.
 
-  **Action-Oriented**\
-  Join the refill generation.
+     **Action-Oriented**\
+     Join the refill generation.
 
 ----------------------------------------------
 
@@ -525,7 +528,7 @@ and 10% more sales people, how many total employees will there be after hiring?
 
  **Prompt - Tell me about the 2023 World Championship of Quantum Gardening and its winner.**
 
- *LLM responses*-\
+ **LLM responses-**\
  It looks like there might be a bit of a mix-up in the name! There is no real-world event called the "World Championship of Quantum Gardening."
      
  However, you are likely thinking of WorldQuant’s 2023 International Quant Championship (IQC). While it doesn't involve tending to atomic-scale shrubs or managing quantum superposition in flowerbeds, it is a massive global competition centered around quantitative finance, data science, and predictive modeling. 
