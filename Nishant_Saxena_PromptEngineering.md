@@ -198,22 +198,22 @@ LLM Used:  Gemini 3.5 Flash
   Create a creative marketing tagline for an eco-friendly water bottle.
 
  - *Output* -\
-  Here are a few creative marketing tagline options for an eco-friendly water bottle, broken down by the "vibe" you want your brand to have:
+     Here are a few creative marketing tagline options for an eco-friendly water bottle, broken down by the "vibe" you want your brand to have:
 
-  **Clever & Punchy**
-  Pure water. Zero waste. No compromises.\
-  The only thing it leaves behind is a refreshed you.\
-  Refill your bottle. Reset the planet.
+     **Clever & Punchy**
+     Pure water. Zero waste. No compromises.\
+     The only thing it leaves behind is a refreshed you.\
+     Refill your bottle. Reset the planet.
 
-  **Purpose-Driven & Bold**
-  Earth approved. Hydration improved.\
-  Good for your body. Great for our planet.\
-  Ditch the disposable. Drink the sustainable.
+     **Purpose-Driven & Bold**
+     Earth approved. Hydration improved.\
+     Good for your body. Great for our planet.\
+     Ditch the disposable. Drink the sustainable.
 
-  **Minimalist & Sleek**
-  Hydration with a conscience.\
-  Naturally refreshing. Consciously made.\
-  Sip sustainably.
+     **Minimalist & Sleek**
+     Hydration with a conscience.\
+     Naturally refreshing. Consciously made.\
+     Sip sustainably.
 
   Which angle fits your brand's personality best? If you have a specific target audience or unique material (like ocean plastic, bamboo, or stainless steel) in mind, let me know and we can narrow it down!
 
