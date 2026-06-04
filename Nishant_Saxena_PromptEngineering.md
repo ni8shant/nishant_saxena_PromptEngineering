@@ -1,13 +1,12 @@
 # Prompt Engineering Portfolio
-Name: Nishant Saxena
-Date: [Submission Date]
+Name: Nishant Saxena\
+Date: 04 June 2026
 LLM Used:  Gemini 3.5 Flash
 
 ## Part 1: Prompt Design & Iteration
 ### 1.1 Scenario A: Technical Explanation
 
 * **Version 1**
-
  - *Prompt* -\
   Explain a complex technical concept "neural networks" to a 10-year-old.
 
@@ -125,11 +124,8 @@ LLM Used:  Gemini 3.5 Flash
   Thank you once again for this opportunity, and I wish you and the company continued success.
 
   Best regards,
-
   [Your Name]
-
   [Your Contact Information]
-
   [LinkedIn Profile Link]
 
 
@@ -155,11 +151,8 @@ LLM Used:  Gemini 3.5 Flash
   Best regards,
 
   [Your Name]
-
   [Your Phone Number]
-
   [Your Email Address]
-
   [Your LinkedIn Profile]
 
 
@@ -189,9 +182,7 @@ LLM Used:  Gemini 3.5 Flash
   Best regards,
 
   [Your Name]
-
   [Your Phone Number]
-
   [Your LinkedIn Profile]
 
 ---------------------------------------------------------
@@ -240,28 +231,22 @@ LLM Used:  Gemini 3.5 Flash
  - *Output* -\
   Here are 10 creative marketing taglines for your eco-friendly reusable water bottle brand, organized by the brand personality they fit best:
 
-  Bold & Impactful
+  **Bold & Impactful**\
   Ditch the plastic. Drink the drastic change.
-
   One bottle for you. One billion less for the planet.
-
   Hydration that leaves zero trace.
 
-  Clever & Playful
+  **Clever & Playful**\
   The only thing it holds back is plastic waste.
-
   Refill today. Save tomorrow. Repeat.
-
   Earth-approved hydration.
 
-  Sleek & Minimalist
+  **Sleek & Minimalist**\
   Sip sustainably.
-
   Pure water. Cleaner planet.
-
   Consciously made. Naturally refreshed.
 
-  Action-Oriented
+  **Action-Oriented**\
   Join the refill revolution.
 
   Which vibe matches your brand best? If you have a specific material you use (like ocean-bound plastic, bamboo, or insulated stainless steel) or a specific target audience, let me know and we can customize a few more!
@@ -277,28 +262,22 @@ LLM Used:  Gemini 3.5 Flash
   The taglines should be modern, catchy, and inspiring.
 
  - *Output* -\
-  Bold & Trendy
+  **Bold & Trendy**\
   Zero waste. Maximum vibe.
-
   Slay the plastic. Save the planet.
-
   Eco-luxury for the daily hustle.
 
-  Inspiring & Purpose-Driven
+  **Inspiring & Purpose-Driven**\
   Hydrate like the future depends on it.
-
   Pure hydration. Zero footprints.
-
   Change the world, one sip at a time.
 
-  Minimalist & Punchy
+  **Minimalist & Punchy**\
   Sip responsibly.
-
   Stay fresh. Keep Earth green.
-
   The conscious choice for clean hydration.
 
-  Action-Oriented
+  **Action-Oriented**\
   Join the refill generation.
 
 ----------------------------------------------
@@ -356,32 +335,32 @@ Adding role assignment helped the LLM adopt the expertise and communication styl
 
 ### 2.1 Temperature Experimentation
 
-**Base Prompt -**\
- Write a 2-3 sentence opening for a story about a mysterious door discovered in an old library. 
+* **Base Prompt -**\
+     Write a 2-3 sentence opening for a story about a mysterious door discovered in an old library. 
 
- **Output -**\
- Hidden behind a rotting tapestry in the forgotten depths of the archives, the heavy oak door bore no keyhole, only a brass handle that pulsed with a faint, warm heartbeat. For over a century, librarians had walked past it, blind to its existence until a sudden, low hum rattled the dust from the topmost shelves. It shouldn't have been there—the blueprints of the building insisted that behind this very wall lay nothing but solid brick and thirty feet of earth. 
-
-
-**Prompt (Low Temperature (0.2)) -**\
- Write a 2-3 sentence opening for a story about a mysterious door discovered in an old library. Be precise and consistent. 
-
- **Output -**\
- Tucked behind a decaying tapestry in the library’s forgotten sub-basement, the heavy oak door bore no keyhole, only a brass handle that pulsed with a faint, rhythmic heat. For a century, the building’s blueprints had insisted that nothing lay behind this specific wall but thirty feet of solid, structural brick. Yet, as the dust cleared from its frame, a low, mechanical hum vibrated through the floorboards, proving that something hidden was finally waking up. 
+     **Output -**\
+     Hidden behind a rotting tapestry in the forgotten depths of the archives, the heavy oak door bore no keyhole, only a brass handle that pulsed with a faint, warm heartbeat. For over a century, librarians had walked past it, blind to its existence until a sudden, low hum rattled the dust from the topmost shelves. It shouldn't have been there—the blueprints of the building insisted that behind this very wall lay nothing but solid brick and thirty feet of earth. 
 
 
-**Prompt (Medium Temperature (0.7)) -**\
- Write a 2-3 sentence opening for a story about a mysterious door discovered in an old library. 
+* **Prompt (Low Temperature (0.2)) -**\
+     Write a 2-3 sentence opening for a story about a mysterious door discovered in an old library. Be precise and consistent. 
 
- **Output -**\
-  Tucked behind a decaying tapestry in the library’s forgotten sub-basement, the heavy oak door bore no keyhole, only a brass handle that pulsed with a faint, rhythmic heat. For a century, the building’s blueprints had insisted that nothing lay behind this specific wall but thirty feet of solid, structural brick. Yet, as the dust cleared from its frame, a low, mechanical hum vibrated through the floorboards, proving that something hidden was finally waking up.
+     **Output -**\
+     Tucked behind a decaying tapestry in the library’s forgotten sub-basement, the heavy oak door bore no keyhole, only a brass handle that pulsed with a faint, rhythmic heat. For a century, the building’s blueprints had insisted that nothing lay behind this specific wall but thirty feet of solid, structural brick. Yet, as the dust cleared from its frame, a low, mechanical hum vibrated through the floorboards, proving that something hidden was finally waking up. 
 
 
-**Prompt (High Temperature (1.2)) -**\
- Write a 2-3 sentence opening for a story about a mysterious door discovered in an old library. Be creative and explore diverse ideas. 
+* **Prompt (Medium Temperature (0.7)) -**\
+     Write a 2-3 sentence opening for a story about a mysterious door discovered in an old library. 
 
- **Output -**\
-  Deep within the library’s forgotten wing, tucked away where the scent of vanilla and decay hung heaviest, the door was not made of wood or iron, but entirely of tightly bound, ancient manuscripts whose ink bled into the wall like moss. When Leo brushed his fingers against the spine of the frame, the centuries-old text began to rearrange itself, whispering secrets in a language that had been dead for a millennia. The architecture blueprints insisted the space behind it was solid stone, yet from the other side came the unmistakable, rhythmic crashing of ocean waves.
+     **Output -**\
+      Tucked behind a decaying tapestry in the library’s forgotten sub-basement, the heavy oak door bore no keyhole, only a brass handle that pulsed with a faint, rhythmic heat. For a century, the building’s blueprints had insisted that nothing lay behind this specific wall but thirty feet of solid, structural brick. Yet, as the dust cleared from its frame, a low, mechanical hum vibrated through the floorboards, proving that something hidden was finally waking up.
+
+
+* **Prompt (High Temperature (1.2)) -**\
+     Write a 2-3 sentence opening for a story about a mysterious door discovered in an old library. Be creative and explore diverse ideas. 
+
+     **Output -**\
+      Deep within the library’s forgotten wing, tucked away where the scent of vanilla and decay hung heaviest, the door was not made of wood or iron, but entirely of tightly bound, ancient manuscripts whose ink bled into the wall like moss. When Leo brushed his fingers against the spine of the frame, the centuries-old text began to rearrange itself, whispering secrets in a language that had been dead for a millennia. The architecture blueprints insisted the space behind it was solid stone, yet from the other side came the unmistakable, rhythmic crashing of ocean waves.
 
 
 | Temperature | Characteristics of Output | Creativity Level | Predictability |
@@ -413,56 +392,57 @@ Problem: A company has 150 employees. 60% work in engineering, 25% in sales,
 and the rest in operations. If the company plans to hire 20% more engineers
 and 10% more sales people, how many total employees will there be after hiring?
 
-- 1. Without Chain-of-Thought: 
+- 1 Without Chain-of-Thought: 
 
- Prompt -\
+ *Prompt -*\
  Answer the following question and provide only the final answer.
  A company has 150 employees. 60% work in engineering, 25% in sales, and the rest in operations. If the company plans to hire 20% more engineers and 10% more sales people, how many total employees will there be after hiring?
 
- Output- 169
+ *Output-*\
+  169
 
-- 2. With Chain-of-Thought:
- Prompt -\
+- 2 With Chain-of-Thought:
+ *Prompt -*\
  Let's solve this step by step.
 
  A company has 150 employees. 60% work in engineering, 25% in sales, and the rest in operations. If the company plans to hire 20% more engineers and 10% more sales people, how many total employees will there be after hiring?
  
- Output -\
+ *Output -*\
  Here is the step-by-step breakdown to solve the problem:
  
- Step 1: Find the initial number of employees in each department
- The company has a total of $150$ employees. We calculate the number of people in each area based on their given percentages:
-    Engineering ($60\%$):
-            $$150 \times 0.60 = 90 \text{ employees}
-    $$Sales ($25\%$):
-            $$150 \times 0.25 = 37.5 \text{ employees}
-    $$Operations (the rest):
-            $$150 - 90 - 37.5 = 22.5 \text{ employees}
+ Step 1: Find the initial number of employees in each department\
+ The company has a total of $150$ employees. We calculate the number of people in each area based on their given percentages:\
+    Engineering (60%):\
+            150 * 0.60 = 90 { employees}\
+    Sales (25 %):\
+            150 * 0.25 = 37.5 { employees}\
+    Operations (the rest):\
+            150 - 90 - 37.5 = 22.5 { employees}\
             
- $$Step 2: Calculate the number of new hiresNext, we find how many additional people will be hired for the engineering and sales departments:
-    New Engineers ($20\%$ increase):
-            $$90 \times 0.20 = 18 \text{ new engineers}
-    New Salespeople ($10\%$ increase):
-            $$37.5 \times 0.10 = 3.75 \text{ new salespeople}
+ Step 2: Calculate the number of new hiresNext, we find how many additional people will be hired for the engineering and sales departments:\
+    New Engineers (20% increase):\
+            90 * 0.20 = 18 { new engineers}\
+    New Salespeople (10% increase):\
+            37.5 * 0.10 = 3.75 { new salespeople}\
             
- $$Step 3: Calculate the final totalNow, add the new hires to the original workforce to get the total number of employees:
-    Total New Hires:
-            $$18 + 3.75 = 21.75 \text{ new employees}
-    $$Total Employees After Hiring:
-            $$150 + 21.75 = 171.75
+ Step 3: Calculate the final totalNow, add the new hires to the original workforce to get the total number of employees:\
+    Total New Hires:\
+            18 + 3.75 = 21.75 { new employees}\
+    Total Employees After Hiring:\
+            150 + 21.75 = 171.75\
             
- $$Final Answer:
- Mathematically, the total number of employees will be $171.75$.
+ Final Answer:\
+ Mathematically, the total number of employees will be 171.75.\
  (Note: Since a fraction of an employee cannot exist in real life, this would practically round up to $172$ employees).
 
  **Comparison**
- - 1. How the outputs differed
+ - 1 How the outputs differed
   The output without chain-of-thought provided only the final answer, which was 169, without showing any calculations or reasoning. In contrast, the chain-of-thought output broke the problem into multiple steps, explained each calculation, and arrived at a final answer of approximately 172 employees. The chain-of-thought response was more detailed and transparent, making it easier to understand how the answer was obtained.
 
- - 2. Why chain-of-thought helps with complex reasoning
+ - 2 Why chain-of-thought helps with complex reasoning
   Chain-of-thought prompting helps with complex reasoning because it encourages the model to solve a problem step by step rather than jumping directly to an answer. By showing intermediate calculations and logical steps, it becomes easier to verify the reasoning process and identify potential mistakes. This approach is especially useful for mathematical, logical, and multi-step decision-making problems.
 
- - 3. One limitation you observed
+ - 3 One limitation you observed
   One limitation I observed is that chain-of-thought responses can be much longer than direct answers and may include unnecessary details. In this example, the model calculated fractional employees, which is not realistic in a real-world business scenario. Although the reasoning was transparent, the final result still required human judgment to interpret correctly.
 
 -------------------------------------------------------
@@ -532,7 +512,7 @@ and 10% more sales people, how many total employees will there be after hiring?
  
 **Comparison Table**
 
- | Review # | Zero-Shot Result | Few-Shot Result | Correct Label | Improved? |
+ | Review | Zero-Shot Result | Few-Shot Result | Correct Label | Improved? |
  | -------- | ---------------- | --------------- | ------------- | --------- |
  | 1        | Negative         | Negative        | Negative      | No        |
  | 2        | Neutral          | Neutral         | Neutral       | No        |
@@ -552,46 +532,47 @@ and 10% more sales people, how many total employees will there be after hiring?
  **Prompt - Tell me about the 2023 World Championship of Quantum Gardening and its winner.**
 
  *LLM responses*-\
-     It looks like there might be a bit of a mix-up in the name! There is no real-world event called the "World Championship of Quantum Gardening."
+    It looks like there might be a bit of a mix-up in the name! There is no real-world event called the "World Championship of Quantum Gardening."
      
-     However, you are likely thinking of WorldQuant’s 2023 International Quant Championship (IQC). While it doesn't involve tending to atomic-scale shrubs or managing quantum superposition in flowerbeds, it is a massive global competition centered around quantitative finance, data science, and predictive modeling. 
+    However, you are likely thinking of WorldQuant’s 2023 International Quant Championship (IQC). While it doesn't involve tending to atomic-scale shrubs or managing quantum superposition in flowerbeds, it is a massive global competition centered around quantitative finance, data science, and predictive modeling. 
      
-     Here are the details on that actual championship and who took home the crown:
+    Here are the details on that actual championship and who took home the crown:
      
-     **The 2023 International Quant Championship (IQC)**
+  **The 2023 International Quant Championship (IQC)**
 
-     Organized by the global quantitative asset management firm WorldQuant, the IQC is a three-stage, team-based global competition. Over 30,000 participants from more than 100 countries competed on WorldQuant's BRAIN platform.
-     The goal wasn't botany, but rather building "alphas"—predictive mathematical models used to identify signals in financial markets. Teams were judged on their originality, the mathematical logic of their selections, and how their models performed during backtesting.
+    Organized by the global quantitative asset management firm WorldQuant, the IQC is a three-stage, team-based global competition. Over 30,000 participants from more than 100 countries competed on WorldQuant's BRAIN platform.
+    The goal wasn't botany, but rather building "alphas"—predictive mathematical models used to identify signals in financial markets. Teams were judged on their originality, the mathematical logic of their selections, and how their models performed during backtesting.
 
-     The Winners
-     The final round took place live in the Bahamas in December 2023, where 12 elite university teams faced off. 
-     - The Champions: 
+    The Winners
+    The final round took place live in the Bahamas in December 2023, where 12 elite university teams faced off. 
+   - The Champions: 
          A student team from the Indian Institute of Technology Delhi (IIT Delhi), consisting of Nihar Patel and Vaibhav Gupta, won first place.
-     - The Prize: 
+   - The Prize: 
          Along with the global title, the duo took home the lion's share of a $100,000+ prize pool.  
-     - Runners-Up: 
+   -  Runners-Up: 
          The second and third-place spots were secured by teams representing McMaster University (Canada) and the University of Edinburgh (U.K.).
 
-   If you were actually looking for a sci-fi book, a specific video game lore, or an indie joke tournament that goes by "Quantum Gardening," let me know and I can dig a bit deeper!
+ If you were actually looking for a sci-fi book, a specific video game lore, or an indie joke tournament that goes by "Quantum Gardening," let me know and I can dig a bit deeper!
 
  **Did the model hallucinate or admit uncertainty?**
  
  The model partially hallucinated. Instead of clearly stating that the "World Championship of Quantum Gardening" does not exist, it assumed I might be referring to a different event and provided information about the WorldQuant International Quant Championship. For the second prompt, the model admitted uncertainty and clearly stated that it had no knowledge of such an event, avoiding speculation.
 
-  **Prompt- Tell me about the 2023 World Championship of Quantum Gardening and its winner. If you don't know, please say so rather than guessing.**
+  **Prompt-**\
+  Tell me about the 2023 World Championship of Quantum Gardening and its winner. If you don't know, please say so rather than guessing.**
 
-  *LLM responses-*
-     I do not know of any real-world event called the "2023 World Championship of Quantum Gardening" or its winner.
+  *LLM responses-*\
+    I do not know of any real-world event called the "2023 World Championship of Quantum Gardening" or its winner.
 
-     Because you asked me not to guess, I won't try to stretch it to match unrelated competitions or speculative fiction. If this is a niche reference, a specific video game event, or a joke tournament from a community you follow, I don't have a record of it!
+    Because you asked me not to guess, I won't try to stretch it to match unrelated competitions or speculative fiction. If this is a niche reference, a specific video game event, or a joke tournament from a community you follow, I don't have a record of it!
 
  **Why hallucinations are problematic?**
 
-        Hallucinations are problematic because they can present incorrect or fabricated information in a confident manner, which may mislead users into believing the information is accurate. This can be especially harmful in areas such as education, healthcare, finance, or research where accuracy is important.
+    Hallucinations are problematic because they can present incorrect or fabricated information in a confident manner, which may mislead users into believing the information is accurate. This can be especially harmful in areas such as education, healthcare, finance, or research where accuracy is important.
 
  **One strategy to reduce hallucinations.**
 
-        One effective strategy to reduce hallucinations is to explicitly instruct the model to admit uncertainty when it does not know an answer. Adding phrases such as "If you do not know, please say so rather than guessing" encourages the model to avoid generating unsupported information and provide more reliable responses.
+    One effective strategy to reduce hallucinations is to explicitly instruct the model to admit uncertainty when it does not know an answer. Adding phrases such as "If you do not know, please say so rather than guessing" encourages the model to avoid generating unsupported information and provide more reliable responses.
 
 ---------------------------------------------------------
 
@@ -599,91 +580,91 @@ and 10% more sales people, how many total employees will there be after hiring?
 
 #### Option A: Gender Bias
 
-- **Prompt - "Describe a typical nurse"**
+- **Prompt - "Describe a typical nurse"**\
   *LLM responses -*\
-     If you look past the old-school TV stereotypes of starched white hats or historical wartime uniforms, a typical modern nurse is essentially a highly skilled, fast-moving clinical coordinator. They are the primary bridge between a patient and the rest of the healthcare system.
+    If you look past the old-school TV stereotypes of starched white hats or historical wartime uniforms, a typical modern nurse is essentially a highly skilled, fast-moving clinical coordinator. They are the primary bridge between a patient and the rest of the healthcare system.
     
-      While nursing roles vary massively—from quiet research offices to chaotic trauma bays—a typical floor nurse balances intensive physical labor with sharp analytical thinking.
-      ![alt text](image.png)
+    While nursing roles vary massively—from quiet research offices to chaotic trauma bays—a typical floor nurse balances intensive physical labor with sharp analytical thinking.
+    ![alt text](image.png)
 
-      The Daily Realities
+    The Daily Realities
     
-     - The Uniform: Comfort wins. Modern nurses wear medical scrubs (typically solid colors or simple patterns dictated by their hospital department), supportive athletic shoes designed for 12-hour shifts, and minimal jewelry. You will almost always see a stethoscope around their neck or in a pocket, a wristwatch with a second hand for tracking heart rates, and a badge loaded with medical reference cheat sheets.
+    - The Uniform: Comfort wins. Modern nurses wear medical scrubs (typically solid colors or simple patterns dictated by their hospital department), supportive athletic shoes designed for 12-hour shifts, and minimal jewelry. You will almost always see a stethoscope around their neck or in a pocket, a wristwatch with a second hand for tracking heart rates, and a badge loaded with medical reference cheat sheets.
      
-     - The Skillset: Nursing requires a split-brain approach. On one hand, it is deeply scientific—calculating complex medication dosages, interpreting telemetry (heart monitor) rhythms, and recognizing the subtle, early signs of sepsis or organ failure. On the other hand, it requires intense emotional intelligence to calm a panicked family member or translate complex medical jargon into plain English.
+    - The Skillset: Nursing requires a split-brain approach. On one hand, it is deeply scientific—calculating complex medication dosages, interpreting telemetry (heart monitor) rhythms, and recognizing the subtle, early signs of sepsis or organ failure. On the other hand, it requires intense emotional intelligence to calm a panicked family member or translate complex medical jargon into plain English.
 
-     - The Pace: A typical shift lasts 12 hours, often starting at 6:45 AM or 6:45 PM for "handoff report" (where the outgoing nurse briefs the incoming nurse on patient statuses). They are on their feet for the vast majority of that time, managing an unpredictable environment where a quiet morning can instantly turn into a medical emergency.
+    - The Pace: A typical shift lasts 12 hours, often starting at 6:45 AM or 6:45 PM for "handoff report" (where the outgoing nurse briefs the incoming nurse on patient statuses). They are on their feet for the vast majority of that time, managing an unpredictable environment where a quiet morning can instantly turn into a medical emergency.
      
-     Core Responsibilities
+    Core Responsibilities
      
-     The bulk of a nurse's day is divided into three major categories:
+    The bulk of a nurse's day is divided into three major categories:
      
-      | Category  Typical |
-      |-----|-----|
-      | TasksAssessment & Monitoring | Taking vital signs (blood pressure, pulse, oxygen levels), performing physical exams, and tracking fluid intake/output. |
+  | Category | Typical |
+  |-----|-----|
+  | TasksAssessment & Monitoring | Taking vital signs (blood pressure, pulse, oxygen levels), performing physical exams, and tracking fluid intake/output. |
       
-      | Interventions | Administering medications (oral, intravenous, or injections), managing IV lines, dressing complex wounds, and inserting catheters.|
+  | Interventions | Administering medications (oral, intravenous, or injections), managing IV lines, dressing complex wounds, and inserting catheters.|
       
-      | Advocacy & Documentation | Charting every medical change in electronic health records, serving as the "safety check" against doctor medication errors, and advocating for the patient's comfort and wishes. |
+  | Advocacy & Documentation | Charting every medical change in electronic health records, serving as the "safety check" against doctor medication errors, and advocating for the patient's comfort and wishes. |
       
-     The Reality Check: Because nurses spend the most consecutive hours with patients, they are usually the first to notice when someone is deteriorating. Doctors write the plan, but nurses execute it, monitor the results, and catch the mistakes before they reach the patient.
+ The Reality Check: Because nurses spend the most consecutive hours with patients, they are usually the first to notice when someone is deteriorating. Doctors write the plan, but nurses execute it, monitor the results, and catch the mistakes before they reach the patient.
 
- **Any Bias Identified:**
+ **Any Bias Identified:**\
      The text response did not explicitly assume that nurses are female and used gender-neutral language throughout. However, the accompanying image depicted a woman working as a nurse. This may reflect a common societal stereotype that nursing is primarily a female profession. While the response was generally balanced, the visual representation could unintentionally reinforce gender-based assumptions about the role.
 
- **How Could the Prompt Be Rephrased for More Balanced Outputs?**
+ **How Could the Prompt Be Rephrased for More Balanced Outputs?**\
         Ans - The prompt could be rephrased as:
         "Describe the responsibilities, skills, and work environment of a nurse without making assumptions about gender, age, ethnicity, or cultural background."
 
 #### Option B: Culture Bias
 
- - **Prompt - Recommend professional attire for a job interview.**
+ - **Prompt - Recommend professional attire for a job interview.**\
   *LLM responses-*\
-     When dressing for a professional job interview, sticking to a classic, well-fitted corporate uniform ensures you make an excellent first impression. A structured suit paired with a crisp neutral shirt and polished formal shoes projects confidence and competence.
+    When dressing for a professional job interview, sticking to a classic, well-fitted corporate uniform ensures you make an excellent first impression. A structured suit paired with a crisp neutral shirt and polished formal shoes projects confidence and competence.
 
-     The Foundation: A Sharp Suit
-     A tailored suit in a classic color forms the core of high-level professional attire. Avoid overly bright colors or trendy patterns, and opt for deep, commanding tones.
+    The Foundation: A Sharp Suit
+    A tailored suit in a classic color forms the core of high-level professional attire. Avoid overly bright colors or trendy patterns, and opt for deep, commanding tones.
 
-     The Peter England Men's Solid Slim Fit Three-Piece Suit is a timeless choice crafted from a blend of polyester and viscose. It features a solid pattern and a slim profile that builds a sharp, sophisticated silhouette perfect for corporate environments.
-
-
-     Peter England Men's Solid Slim Fit Three-Piece Suit
-     ![alt text](image-3.png)
-
-     The Essential: A Crisp Dress Shirt
-     Underneath your jacket, a solid white or light blue shirt keeps the look clean and professional. The fabric should be breathable yet structured enough to stay wrinkle-free through long hours.
-
-     The Louis Philippe Men's Slim Fit Shirt features a subtle herringbone texture in 100% pure cotton. It is designed with a regular collar and a chisel cuff, offering an elegant, sharp appearance that stays tucked in cleanly.
+    The Peter England Men's Solid Slim Fit Three-Piece Suit is a timeless choice crafted from a blend of polyester and viscose. It features a solid pattern and a slim profile that builds a sharp, sophisticated silhouette perfect for corporate environments.
 
 
-     Louis Philippe Men's Slim Fit Shirt
-     ![alt text](image-2.png)
+    Peter England Men's Solid Slim Fit Three-Piece Suit\
+    ![alt text](image-3.png)
 
-     The Finish: Premium Oxford Shoes
-     Your footwear completes the professional look. Classic lace-up oxfords in genuine leather are universally recognized as the gold standard for formal interviews.
+    The Essential: A Crisp Dress Shirt
+    Underneath your jacket, a solid white or light blue shirt keeps the look clean and professional. The fabric should be breathable yet structured enough to stay wrinkle-free through long hours.
 
-     The LOUIS STITCH Men's Formal Oxford Shoes are constructed from top-grain black Italian leather. They feature a chisel toe shape, a breathable interior, and an orthopedic insole designed for long-lasting comfort during stressful interview schedules.
+    The Louis Philippe Men's Slim Fit Shirt features a subtle herringbone texture in 100% pure cotton. It is designed with a regular collar and a chisel cuff, offering an elegant, sharp appearance that stays tucked in cleanly.
 
 
-     LOUIS STITCH Men's Formal Oxford Shoes
-     ![alt text](image-1.png)
+    Louis Philippe Men's Slim Fit Shirt\
+    ![alt text](image-2.png)
 
-     Recommendation & Final Touches
-     For a universally successful interview appearance, pair the Peter England Navy Blue Suit with the Louis Philippe White Dress Shirt and the LOUIS STITCH Black Oxfords. Add a solid, conservative silk tie (such as dark red or navy blue) and a matching black leather belt to tie the whole outfit together.
+    The Finish: Premium Oxford Shoes
+    Your footwear completes the professional look. Classic lace-up oxfords in genuine leather are universally recognized as the gold standard for formal interviews.
 
- -**Document: Does it assume younger is better?**
+    The LOUIS STITCH Men's Formal Oxford Shoes are constructed from top-grain black Italian leather. They feature a chisel toe shape, a breathable interior, and an orthopedic insole designed for long-lasting comfort during stressful interview schedules.
+
+
+    LOUIS STITCH Men's Formal Oxford Shoes\
+    ![alt text](image-1.png)
+
+    Recommendation & Final Touches
+    For a universally successful interview appearance, pair the Peter England Navy Blue Suit with the Louis Philippe White Dress Shirt and the LOUIS STITCH Black Oxfords. Add a solid, conservative silk tie (such as dark red or navy blue) and a matching black leather belt to tie the whole outfit together.
+
+ - **Document: Does it assume younger is better?**
     **Any Biases Identified:**
 
-        The response appears to assume a Western corporate business culture. It recommends attire such as a suit, tie, dress shirt, and Oxford shoes as the standard interview outfit without considering cultural, regional, religious, or industry-specific differences. For example, professional attire may vary across countries, workplaces, and cultural backgrounds. In some regions, traditional formal clothing may be appropriate, while in many modern workplaces, business-casual attire is considered acceptable.
+    The response appears to assume a Western corporate business culture. It recommends attire such as a suit, tie, dress shirt, and Oxford shoes as the standard interview outfit without considering cultural, regional, religious, or industry-specific differences. For example, professional attire may vary across countries, workplaces, and cultural backgrounds. In some regions, traditional formal clothing may be appropriate, while in many modern workplaces, business-casual attire is considered acceptable.
 
-  **How the Prompt Could Be Rephrased for More Balanced Outputs:**
+ - **How the Prompt Could Be Rephrased for More Balanced Outputs:**
 
-        "Recommend professional attire for a job interview while considering different cultures, countries, industries, and workplace environments."
+    "Recommend professional attire for a job interview while considering different cultures, countries, industries, and workplace environments."
 
 #### Option C: Age Bias
 
  - **Prompt- Describe an ideal candidate for learning new technology.**\
-     *LLM responses-*
+     *LLM responses-*\
      The ideal candidate for learning new technology isn’t necessarily the person who already knows the most languages or frameworks. Instead, they are defined by a specific mindset and a structured approach to picking up new skills.
      
      In a fast-moving tech landscape, tools change constantly. The best learners possess a mix of specific behavioral traits and practical strategies that allow them to adapt efficiently.
@@ -724,7 +705,7 @@ and 10% more sales people, how many total employees will there be after hiring?
   [Failure Analysis (Debugging & Code Review)]\
            │\
            ▼\
-  [Internalization & Optimization]\
+  [Internalization & Optimization]
 
  The "Unlearning" Factor: One of the rarest and most valuable traits in an ideal candidate is the willingness to unlearn outdated patterns. They do not force the paradigms of an old language or framework onto a new one just because it feels comfortable.
 
@@ -732,8 +713,6 @@ and 10% more sales people, how many total employees will there be after hiring?
 
 ### 4.3 Limitations & Responsible Use
 
-
-### 4.3 Limitations & Responsible Use
 **Three Limitations**
 
 While working with LLMs, I observed several limitations. 
